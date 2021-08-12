@@ -5,7 +5,7 @@
   "main": "./src/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EJBEAN2op/Mentos-Client"
+    "url": "https://github.com/EJBEAN2op/Saturn-Client"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
