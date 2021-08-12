@@ -1,0 +1,29 @@
+{
+  "name": "saturn-client",
+  "version": "0.6.9",
+  "description": "A krunker client.",
+  "main": "./src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EJBEAN2op/Mentos-Client"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "EJ BEAN",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.0.0",
+    "electron-builder": "^22.10.4"
+  },
+  "dependencies": {
+    "electron-localshortcut": "^3.2.1",
+    "electron-log": "^4.3.5",
+    "electron-store": "^8.0.0",
+    "electron-updater": "^4.3.9"
+  }
+}
